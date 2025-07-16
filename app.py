@@ -7,7 +7,8 @@ from prophet import Prophet
 import matplotlib.pyplot as plt
 
 
-API_KEY = 'bcb46177eec7b83ec1d7a8c33a433f57'  
+API_KEY = st.secrets["API_KEY"]
+
 
 CITY_COORDS = {
     "Pune": (18.52, 73.85),
