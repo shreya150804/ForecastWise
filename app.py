@@ -10,6 +10,7 @@ import matplotlib.pyplot as plt
 API_KEY = st.secrets["API_KEY"]
 
 
+
 CITY_COORDS = {
     "Pune": (18.52, 73.85),
     "Mumbai": (19.07, 72.88),
