@@ -9,7 +9,7 @@ import pytz
 
 
 india = pytz.timezone('Asia/Kolkata')
-
+current_time = datetime.datetime.now(india)
 
 API_KEY = st.secrets["API_KEY"]
 
@@ -66,11 +66,11 @@ with col1:
 
 with col2:
     st.subheader("📅 Date")
-    st.markdown(f"**{datetime.datetime.now().strftime('%A, %d %B %Y')}**")
+    st.markdown(f"**{current_time.strftime('%A, %d %B %Y')}*")
 
 with col3:
     st.subheader("⏱️ Time")
-    st.markdown(f"**{datetime.datetime.now().strftime('%I:%M %p')}**")
+    st.markdown(f"**{current_time.strftime('%I:%M %p')}**")
 
 
 # -- GET DATA --
