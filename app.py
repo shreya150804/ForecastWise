@@ -5,6 +5,10 @@ import pandas as pd
 from meteostat import Point, Daily
 from prophet import Prophet
 import matplotlib.pyplot as plt
+import pytz
+
+
+india = pytz.timezone('Asia/Kolkata')
 
 
 API_KEY = st.secrets["API_KEY"]
