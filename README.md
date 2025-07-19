@@ -1,6 +1,6 @@
-# 🌦️ WeatherWise – Real-Time Weather Forecast App
+# 🌦️ ForecastWise – Real-Time Weather Forecast App
 
-**WeatherWise** is a clean, interactive, and secure real-time weather dashboard built using **Streamlit** and the **OpenWeatherMap API**. It allows users to view current weather conditions and a 5-day forecast for any city, complete with visualizations.
+**ForecastWise** is a clean, interactive, and secure real-time weather dashboard built using **Streamlit** and the **OpenWeatherMap API**. It allows users to view current weather conditions and a 5-day forecast for any city, complete with visualizations.
 
 ---
 
